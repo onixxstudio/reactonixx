@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  /* overflow-x: hidden; */
+  /* overflow-x: hidden; */
+  box-sizing: border-box;
+}
+ 
+@layer components {
+
+  .image{
+    
+    -webkit-mask-image: url(../Public/new.png) ;
+    -webkit-mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+
+    height: 100%;
+    width: 100%;
+  }
+} 
+
+
+#text-stroke{
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: whitesmoke;
+  -webkit-text-stroke-width: 3px;
+}
+
+.perspective{
+  perspective: 2200px;
+}
