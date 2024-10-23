@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react'
-import Page1 from './Components/Page1'
+import Page1 from './Page1'
 import Lenis from 'lenis'
 import { ReactLenis, useLenis } from 'lenis/react'
 // import Page2 from './Components/Page2'
